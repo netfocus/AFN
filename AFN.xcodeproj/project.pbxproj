@@ -192,10 +192,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE68977316997DFA000FAB25 /* Foundation.framework in Frameworks */,
 				EE68982716997F6B000FAB25 /* CoreData.framework in Frameworks */,
 				EE68977116997DFA000FAB25 /* SenTestingKit.framework in Frameworks */,
 				EE68977216997DFA000FAB25 /* UIKit.framework in Frameworks */,
-				EE68977316997DFA000FAB25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,9 @@
 {
     [super setUp];
     
+    NSLog(@"This class boundle: %@", [NSBundle bundleForClass:[self class]]);
+    NSLog(@"Person boundle: %@", [NSBundle bundleForClass:[Person class]]);
+    
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"AFN.sqlite"];
     Person *p = [Person createEntity];
     p.name = @"Jhon";
